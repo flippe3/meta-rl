@@ -20,6 +20,7 @@
 
 title: Meta Reinforcement Learning
 email: filnil-8@student.ltu.se 
+name: Filip Nilsson
 description: >- # this means to ignore newlines until "baseurl:"
   A collection of work that I'm doing for my master thesis on Meta Reinforcement Learning at LTU.
 baseurl: "/meta-rl" # the subpath of your site, e.g. /blog
