@@ -18,13 +18,16 @@ learning. This paper serves as a great starting point for meta-learning.
 **Algorithms**: Gradient descent, REINFORCE  
 **Datasets**: Omniglot, MiniImagenet, MuJoCo simulator (half-cheetah and ant locomotion), 2D goal positions (no dataset).  
 **Code**: [MAML](https://github.com/cbfinn/maml), [MAML\_RL](https://github.com/cbfinn/maml_rl)
+
 ---
+
 #### [Fast Context Adaptation via Meta-Learning](http://proceedings.mlr.press/v97/zintgraf19a/zintgraf19a.pdf)
 This is a continuation of the MAML paper in that they use very much a similar structure but they've added context parameters.
 
-**Algorithms**: Context adaption
-**Datasets**: CelebA, MiniImagenet, MuJoCo
+**Algorithms**: Context adaption  
+**Datasets**: CelebA, MiniImagenet, MuJoCo  
 **Code**: [CAVIA](https://github.com/lmzintgraf/cavia)
+
 ---
 
 ## Reinforcement Learning
