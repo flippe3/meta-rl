@@ -8,7 +8,7 @@ A collection of all the papers I've been studying is [here](https://docs.google.
 
 ## Meta-Learning
 ---
-#### [Model Agnostic Meta Learning for Fast Adaption of Deep Networks](https://arxiv.org/abs/1703.03400)
+#### [Model Agnostic Meta Learning for Fast Adaption of Deep Networks](https://arxiv.org/abs/1703.03400) {% maml %}
 This paper introduces a very clear meta-learning algorithm called MAML which uses gradient decent to
 optimize a meta-learner for the network to be able to adapt faster to out of distribution(ood) data. It
 is very general and works on any architecture given that it is trained using gradient descent. This also means
@@ -17,11 +17,11 @@ learning. This paper serves as a great starting point for meta-learning.
 
 **Algorithms**: Gradient descent, REINFORCE  
 **Datasets**: Omniglot, MiniImagenet, MuJoCo simulator (half-cheetah and ant locomotion), 2D goal positions (no dataset).  
-**Code**: [MAML](https://github.com/cbfinn/maml), [MAML\_RL](https://github.com/cbfinn/maml_rl)
+**Code**: [MAML](https://github.com/cbfinn/maml), [MAML\_RL](https://github.com/cbfinn/maml_rl) {% cavia %}
 
 ---
 
-#### [Fast Context Adaptation via Meta-Learning](http://proceedings.mlr.press/v97/zintgraf19a/zintgraf19a.pdf)
+#### [Fast Context Adaptation via Meta-Learning](http://proceedings.mlr.press/v97/zintgraf19a/zintgraf19a.pdf) {% cavia %}
 This is a continuation of the MAML paper in that they use very much a similar structure but they've added context parameters.
 
 **Algorithms**: Context adaption  
@@ -33,3 +33,5 @@ This is a continuation of the MAML paper in that they use very much a similar st
 ## Reinforcement Learning
 ---
 ## Meta Reinforcement Learning
+
+{% bibliography --cited %}
