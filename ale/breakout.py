@@ -1,4 +1,4 @@
-import gymnasium as gym
+import gym
 env = gym.make("ALE/Breakout-v5", render_mode="human")
 observation, info = env.reset()
 
