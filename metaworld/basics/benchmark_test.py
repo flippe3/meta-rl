@@ -13,5 +13,10 @@ for name, env_cls in ml10.train_classes.items():
 
 for env in training_envs:
   obs = env.reset()  # Reset environment
-  a = env.action_space.sample()  # Sample an action
-  obs, reward, done, info = env.step(a)  # Step the environoment with the sampled random action
+  while True:
+    a = env.action_space.sample()  # Sample an action
+    obs, reward, done, info = env.step(a)  # Step the environoment with the sampled random action
+    env.render()
+    print(obs)
+    if done:
+        break
