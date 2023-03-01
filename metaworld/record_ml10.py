@@ -7,9 +7,9 @@ import time
 import gym
 
 # Load the trained model
-epoch = 1500 # last, first, or integer
+epoch = 250 # last, first, or integer
 snapshotter = Snapshotter()
-data = snapshotter.load("/home/fleip/Documents/maml_trpo_metaworld_ml10_seed=1_epochs=2000_rollouts_per_task=10_meta_batch_size=20_inner_lr=0.0001_17", itr=epoch)
+data = snapshotter.load("/home/fleip/research/garage/metaworld_examples/data/local/experiment/maml_trpo_metaworld_ml10_seed=1_epochs=2000_rollouts_per_task=10_meta_batch_size=20_inner_lr=0.0001_17", itr=epoch)
 policy = data['algo'].policy
 
 # Set variables

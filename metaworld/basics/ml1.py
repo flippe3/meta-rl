@@ -12,6 +12,6 @@ env.set_task(task)  # Set task
 obs = env.reset()  # Reset environment
 while True:
     a = env.action_space.sample()  # Sample an action
-    print(a)
     obs, reward, done, info = env.step(a)  # Step the environoment with the sampled random action
-    env.render()
+    print(obs.shape)
+    # env.render()
